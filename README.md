@@ -1,73 +1,46 @@
-# Welcome to your Lovable project
+# 🐦 Depost
 
-## Project info
+**Decentralized. User-owned. Censorship-proof.**
 
-**URL**: https://lovable.dev/projects/60f6d5d0-69ae-4661-bb33-c30ef7520d5c
+**Depost** is a Twitter-style social media platform where *you* truly own your content. Tweets (a.k.a. posts) are stored on **your IPFS storage**, not on a centralized server. You post it. You own it. You delete it. No one else can.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## ✨ Key Features
 
-**Use Lovable**
+- 🔒 **Your Content, Your Rules** – Posts are stored on your personal IPFS storage (e.g., via Pinata, Web3Storage, or your own node).
+- 🆓 **Censorship-Free** – No central authority to remove or shadowban your content.
+- 💼 **Wallet-Based Login** – Connect with MetaMask or any wallet to verify identity and ownership.
+- 📡 **Decentralized Feed** – Pulls posts directly from peer IPFS nodes.
+- 📦 **Fully Open Source** – Fork it. Run it. Host it yourself.
+- 🔗 **Interoperable** – Can be extended with other dApps, smart contracts, or community layers.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/60f6d5d0-69ae-4661-bb33-c30ef7520d5c) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🧠 How It Works
 
-**Use your preferred IDE**
+1. Connect your crypto wallet
+2. Write a tweet-like post
+3. The post is uploaded to your IPFS storage
+4. A content hash is shared to the global feed
+5. Everyone sees your post, but only you control it
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 💻 Tech Stack
 
-Follow these steps:
+- **Frontend**: React + TailwindCSS
+- **IPFS**: Pinata / Web3.Storage / Self-hosted nodes
+- **Auth**: WalletConnect / MetaMask
+- **Backend**: Minimal or optional – peer-to-peer indexing
+- **Optional Smart Contracts**: Post index registry (EVM)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🚀 Getting Started
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+git clone https://github.com/yourusername/depost.git
+cd depost
+npm install
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/60f6d5d0-69ae-4661-bb33-c30ef7520d5c) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
